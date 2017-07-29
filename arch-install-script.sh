@@ -260,4 +260,4 @@ if [ '$do_unmount' == 'true' ]; then
 	unmount_drives
 fi
 
-echo -e '${COLOR}$0:${NO_COLOR} Arch Linux is now installed!'
+echo -e '${COLOR}$0:${NO_COLOR} Arch Linux is now installed.'
