@@ -3,3 +3,13 @@ An incredibly simple arch install script. This installs a very minimal arch inst
 
 
 This script does not connect to the internet for you or create new partitions. That must be done before hand.
+
+
+To run it:
+
+    pacman -Sy git
+    git clone https://github.com/cheertarts/arch-install-script.git
+    cd arch-install-script
+    chmod +x arch-install-script
+    chmod +x arch-install-script-part-2
+    ./arch-install-script
